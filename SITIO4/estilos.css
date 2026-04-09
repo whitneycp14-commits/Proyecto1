@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    background: #fcdef3;
+    color: #674465;
+}
+
+
+header {
+    text-align: center;
+    padding: 30px;
+    background: #fcdef3;
+}
+
+header h1 {
+    color: rgb(82, 56, 87);
+    letter-spacing: 2px;
+}
+
+header p {
+    color: #ccc;
+    font-size: 14px;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    background: #49314b;
+    padding: 12px;
+}
+
+.menu a {
+    color: rgb(248, 237, 177);
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    color: #fff;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 25px;
+    padding: 25px;
+}
+
+
+.item {
+    background: #523e50;
+    border-radius: 12px;
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: 10px;
+    transition: 0.3s;
+}
+
+.item img {
+    width: 100%;
+    display: block;
+}
+
+.item h3 {
+    margin: 10px 0 5px;
+    color: rgb(245, 235, 177);
+}
+
+.item p {
+    font-size: 13px;
+    color: #ccc;
+    padding: 0 10px;
+}
+
+.item span {
+    display: block;
+    margin-top: 8px;
+    font-weight: bold;
+    color: #fff;
+}
+
+
+.item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(255,215,0,0.3);
+}
+
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #4a3146;
+    color: #aaa;
+}
+.intro {
+    text-align: center;
+    padding: 40px 20px;
+    background: #fcfbec;
+}
+
+.intro h2 {
+    color: rgb(255, 192, 241);
+}
+
+.titulo {
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(89, 58, 84);
+}
+
+
+.tag {
+    position: absolute;
+    background: rgb(50, 20, 48);
+    color: #f5f6ec;
+    padding: 5px 10px;
+    font-size: 12px;
+    top: 10px;
+    left: 10px;
+    border-radius: 5px;
+}
+
+.oferta {
+    background: rgb(45, 3, 23);
+    color: #fff;
+}
+
+
+.item {
+    position: relative;
+}
+
+
+.price {
+    display: block;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+
+button {
+    margin-top: 10px;
+    padding: 8px 15px;
+    border: none;
+    background: rgb(252, 240, 176);
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #fff;
+}
