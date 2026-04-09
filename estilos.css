@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0d0d0d;
+    color: white;
+}
+
+
+header {
+    background: rgb(218, 206, 217);
+    text-align: center;
+    padding: 20px;
+    color: #ad6388;
+}
+
+header p {
+    color: #632c51;
+    font-size: 14px;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+
+aside {
+    background: #464546;
+    padding: 20px;
+}
+
+aside h2 {
+    color: #f0b0d0;
+}
+
+aside ul {
+    list-style: none;
+    padding: 0;
+}
+
+aside li {
+    margin: 10px 0;
+}
+
+
+main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+
+.post {
+    background: #1f1f1f;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.post img {
+    width: 100%;
+    display: block;
+}
+
+.contenido {
+    padding: 15px;
+}
+
+.post h3 {
+    color: #ff4da6;
+    margin-bottom: 10px;
+}
+
+.post p {
+    font-size: 14px;
+    color: #ccc;
+}
+
+.post span {
+    font-size: 12px;
+    color: #888;
+}
+
+
+.post:hover {
+    transform: scale(1.04);
+    box-shadow: 0 0 15px rgba(255, 77, 166, 0.3);
+}
+
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: black;
+    color: #777;
+}
+.hero {
+    background: url('https://i.pinimg.com/736x/2a/fe/24/2afe24462ea372fd23d6256f591c8f37.jpg') center/cover no-repeat;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 12px;
+    margin: 20px;
+}
+
+.hero::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    border-radius: 12px;
+}
+
+.hero-text {
+    position: relative;
+    text-align: center;
+}
+
+.hero-text h2 {
+    font-size: 28px;
+    color: #fff;
+}
+
+.hero-text p {
+    color: #f0b0d0;
+    font-size: 16px;
+}
+.destacado {
+    grid-column: span 2;
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.destacado img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    filter: brightness(0.6);
+}
+
+.destacado-texto {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.destacado-texto h2 {
+    color: #fff;
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.destacado-texto p {
+    color: #ddd;
+    font-size: 14px;
+}
+aside a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+aside a:hover {
+    color: #ff4da6;
+}
+body {
+    background: linear-gradient(180deg, #0d0d0d, #1a1a1a);
+}
